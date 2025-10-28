@@ -1,4 +1,3 @@
-:80 {
-	# Redirect everything, keep path + query
-	redir https://www.gerarduskoetje.pt 301
+gerdkoetje.nl:80, www.gerdkoetje.nl:80 {
+    redir https://www.gerarduskoetje.pt 301
 }
