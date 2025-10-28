@@ -1,0 +1,4 @@
+:80 {
+	# Redirect everything, keep path + query
+	redir {$REDIRECT_TO}{uri} 301
+}
