@@ -1,5 +1,3 @@
-# Behind Traefik we only need plain HTTP inside the container
 :80 {
-  # 301 and keep {uri} (path + ?query)
-  redir https://www.gerarduskoetje.pt{uri} 301
+  respond "OK from redirect service" 200
 }
