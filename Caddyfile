@@ -1,3 +1,19 @@
+casacriativa.eu {
+  redir https://www.facebook.com/wearelivinginportugal/{uri} 301
+}
+
+livinginportugal.eu {
+  redir https://www.facebook.com/wearelivinginportugal/{uri} 301
+}
+
+portugalfarmlife.com {
+  redir https://www.facebook.com/wearelivinginportugal/{uri} 301
+}
+
+niluka.nl {
+  redir https://www.facebook.com/niluka.koetje/{uri} 301
+}
+
 :80 {
   redir https://www.gerarduskoetje.pt{uri} 301
 }
